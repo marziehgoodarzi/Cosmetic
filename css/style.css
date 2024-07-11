@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "vazir";
+  src: url(../font/Vazir.woff) format("woff"),
+    url(../font/Vazir-Thin.woff2)format("woff2"),
+    url(../font/Vazir-Medium.eot)format("eot"),
+    url(../font/Vazir-Thin.eot)format("eot");
+}
+
+@font-face {
+  font-family: "Yekan.woff";
+  src: url(../font/biyekan/Yekan.ttf) format(ttf);
+}
+
+
+/*  <==============he-dr==============>  */
+.navbar {
+  list-style-type: none;
+height: 100px;
+}
+
+
+.nav-group a {
+  font-family: 'Far_Ferdowsi' !important;
+  color: rgb(216, 116, 116) !important;
+}
+
+
+.nav-group a:hover {
+  background-color: rgb(138, 194, 211);
+}
+
+.nav-serch {
+  width: 30rem !important;
+}
+
+
+.nav-icon img {
+  width: 30px;
+  margin: 5px;
+}
+
+.offcanvas {
+  background-image: url(../image/background/pngtree-simple-blue-cosmetics-background-creative-synthesis-picture-image_1318159.jpg) !important;
+}
+
+
+/*  <==============//he-dr==============> */
+
+/* <==============content==============> */
+.cros-a {
+  /* margin-top: 90px; */
+}
+.secthree {
+  background-image: url(../image/background/jaidad.jpg);
+  background-size: cover;
+}
+.marq{
+  height: 100px;
+}
