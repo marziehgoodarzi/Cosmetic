@@ -15,7 +15,6 @@
 /*  <==============he-dr==============>  */
 .navbar {
   list-style-type: none;
-height: 100px;
 }
 
 
@@ -48,12 +47,14 @@ height: 100px;
 
 /* <==============content==============> */
 .cros-a {
-  /* margin-top: 90px; */
+  margin-top: 90px !important;
 }
+
 .secthree {
   background-image: url(../image/background/jaidad.jpg);
   background-size: cover;
 }
-.marq{
+
+.marq {
   height: 100px;
 }
