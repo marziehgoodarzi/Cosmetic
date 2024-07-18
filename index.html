@@ -1,220 +1,167 @@
 <!DOCTYPE html>
 <html lang="fa-ir" dir="ltr">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cosmetics</title>
-    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="./bootstrap/rtl/bootstrap.rtl.min.css"> -->
-    <link rel="stylesheet" href="./css/style.css">
-    <!-- <script src="./javascript/javascript.js" defer></script> -->
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cosmetics</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
 
-  <body>
-    <!-- <==============he-dr==============> -->
-    <header class="container-fluid position-fixed top-0 z-1 ">
-      <div class="navbar bg-body-secondary p-3">
-        <div class="language-switch">
-          <a href="#"
-            class="active text-decoration-none fw-bold text-dark">English</a>
-          |<a href="#"
-            class="text-decoration-none fw-bold text-dark">فارسی</a>
-        </div>
-        <div class=" d-lg-block">
-          <form class="nav-serch d-flex" role="search">
-            <input class="form-control me-2 " type="search"
-              placeholder="جستجو" aria-label="Search">
-            <button class="btn btn-outline-dark shadow"
-              type="submit">جستجو</button>
-          </form>
-        </div>
+</head>
 
-        <div class="nav-icon">
-          <img src="./bootstrap/icon/bag-heart.svg" alt="key">
-          <img src="./bootstrap/icon/heart.svg" alt="herat">
-          <img src="./bootstrap/icon/person-fill.svg" alt="login">
+<body>
+  <!-- <==============he-dr==============> -->
+  <header class="container position-fixed fixed-top">
+    <div class="navbar w-100 bg-light-subtle p-3 border border-1 border-dark justify-content-around">
+      <div class="language-switch">
+        <a href="#" class="active text-decoration-none fw-bold text-dark">English</a>
+        |<a href="#" class="text-decoration-none fw-bold text-dark">فارسی</a>
+      </div>
+      <div class="canva">
+        <div class="text-bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+          aria-controls="offcanvasScrolling"><img src="./bootstrap/icon//list.svg" alt width="30px">
         </div>
-        <div class="canva">
-          <div class="text-dark" type="button"
-            data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
-            aria-controls="offcanvasScrolling"><img
-              src="./bootstrap/icon/list-task.svg" alt width="50px">
+        <div class="offcanvas  offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+          id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-          <div class="offcanvas offcanvas-top" data-bs-scroll="true"
-            data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling"
-            aria-labelledby="offcanvasScrollingLabel">
-            <div class="offcanvas-header">
-              <button type="button" class="btn-close"
-                data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="nav-groupp  mt-1 p-1 text-center">
-                <li class="d-inline-block "><a href="#"
-                    class="list-group-item list-group-item-action active d-block p-4">Start</a></li>
-                <li class="d-inline-block "><a href="#"
-                    class="list-group-item list-group-item-action active d-block p-4">Products</a></li>
-                <li class="d-inline-block "><a href="#"
-                    class="list-group-item list-group-item-action active d-block p-4">About</a></li>
-                <li class="d-inline-block "><a href="#"
-                    class="list-group-item list-group-item-action active d-block p-4">FAQ</a></li>
-                <li class="d-inline-block "><a href="#"
-                    class="list-group-item list-group-item-action active d-block p-4">Content</a></li>
+          <div class="offcanvas-body row">
+
+            <div class="col offcanvas-item">
+              <ul class="nav-group mt-1 p-1 text-center">
+                <li><a href="#" class="list-group-item list-group-item-action active d-block p-4">Start</a></li>
+                <li><a href="#" class="list-group-item list-group-item-action active d-block p-4">Products</a></li>
+                <li><a href="#" class="list-group-item list-group-item-action active d-block p-4">About</a></li>
+                <li><a href="#" class="list-group-item list-group-item-action active d-block p-4">FAQ</a></li>
+                <li><a href="#" class="list-group-item list-group-item-action active d-block p-4">Content</a></li>
               </ul>
             </div>
           </div>
         </div>
+      </div>
 
-      </header>
+      <div class="d-none d-lg-block">
+        <form class="nav-serch d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="جستجو" aria-label="Search">
+          <button class="btn btn-outline-dark shadow" type="submit">جستجو</button>
+        </form>
+      </div>
 
-      <!-- <==============//he-dr==============> -->
+      <div class="nav-icon">
+        <img src="./bootstrap/icon/bag-heart.svg" class="img-fluid img-thumbnail" alt="key">
+        <img src="./bootstrap/icon/heart.svg" class="img-fluid img-thumbnail" alt="herat">
+        <img src="./bootstrap/icon/person-fill.svg" class="img-fluid img-thumbnail" alt="login">
+      </div>
 
-      <!-- <==============content==============> -->
-      <main>
-        <div class="cros-a row">
-          <div class="col">
-            <div class="carousel">
-              <div id="carouselExampleIndicators" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                  <button type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+    </div>
+
+  </header>
+  <!-- <==============//he-dr==============> -->
+
+  <!-- <==============content==============> -->
+  <main class="container">
+    <div class="carousel ">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./image/header/cosmetic13.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./image/header/cosmetic13.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./image/header/cosmetic13.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <section class="box-wrapper row mt-2">
+      <div class="box-">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card card-img-top">
+              <div class="card text-bg-dark">
+                <img src="./image/box/download.webp" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <div class="see">
+                    <button class="btn btn-dark align-self-center">see
+                      more</button>
+                  </div>
+
                 </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item ">
-                    <img src="./image/header/cosmetic7.jpg"
-                      class="d-block  w-100 img-fluid" alt="...">
-                  </div>
-                  <div class="carousel-item ">
-                    <img src="./image/header/cosmetic8.jpg"
-                      class="d-block  w-100 img-fluid" alt="...">
-                  </div>
-                  <div class="carousel-item active">
-                    <img src="./image/header/cosmetic13.jpg"
-                      class="d-block w-100 img-fluid " alt="...">
-                  </div>
-                  <ul class="nav-group text-center mt-3 p-3 ">
-                    <li class="d-inline-block "><a href="#"
-                        class="list-group-item list-group-item-action active d-block p-4 fs-4 fw-bold">Start</a></li>
-                    <li class="d-inline-block "><a href="#"
-                        class="list-group-item list-group-item-action active d-block p-4 fs-4 fw-bold">Products</a></li>
-                    <li class="d-inline-block "><a href="#"
-                        class="list-group-item list-group-item-action active d-block p-4 fs-4 fw-bold">About</a></li>
-                    <li class="d-inline-block "><a href="#"
-                        class="list-group-item list-group-item-action active d-block p-4 fs-4 fw-bold">FAQ</a></li>
-                    <li class="d-inline-block "><a href="#"
-                        class="list-group-item list-group-item-action active d-block p-4 fs-4 fw-bold">Content</a></li>
-                  </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card text-bg-dark">
+              <img src="./image/box/download.webp" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <div class="see">
+                  <button class="btn btn-dark align-self-center">see
+                    more</button>
                 </div>
 
-                <button class="carousel-control-prev" type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon"
-                    aria-hidden="true"></span>
-                </button>
-                <button class="carousel-control-next" type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="next">
-                  <span class="carousel-control-next-icon"
-                    aria-hidden="true"></span>
-                </button>
               </div>
             </div>
           </div>
         </div>
-        <section>
-          <div class="row">
-            <div class="sectow mt-2  d-flex justify-content-around">
-              <div class="row">
-                <div class="col-sm-6 col-lg-6 mt-sm-2">
-                  <div class="card text-bg-dark">
-                    <img src="./image/header/cosmetic12.jpg" class="card-img"
-                      alt="...">
-                    <div class="card-img-overlay">
-                      <div class="see ">
-                        <button class="btn btn-dark align-self-center">see
-                          more</button>
-                      </div>
-    
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-6 col-lg-6 mt-sm-2">
-                  <div class="card text-bg-dark">
-                    <img src="./image/header/cosmetic12.jpg" class="card-img"
-                      alt="...">
-                    <div class="card-img-overlay">
-                      <div class="see">
-                        <button class="btn btn-dark align-self-center">see
-                          more</button>
-                      </div>
-    
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+      </div>
+    </section>
+
+    <div class="routin">
+      <div class="rutin-caption row">
+        <p class="text-center">Browse popular categories</ح>
+      </div>
+      <div class="routin- ">
+        <div class="row ">
+          <div class="col-sm-2"><img src="./image/night/cosmetics3-home-icon1.svg" alt="star">
+            <p>Beauty</p>
           </div>
-          <div class="row">
-            <div class="secthree mt-3 p-5">
-              <div class="row">
-                <div class="col text-center p-5 fw-bold fs-5">
-                  <p>Browse popular categories</p>
-                </div>
-    
-                <div class="sect-img row text-center p-5">
-                  <div class="col-sm-3  col-lg-3">
-                    <img src="./image/night/cosmetics3-home-icon1.svg" alt>
-                  </div>
-                  <div class="col-sm-2 col-lg-2  p-3">
-                    <img src="./image/night/cosmetics3-home-icon2.svg"
-                      class="img-fluid" alt>
-                  </div>
-                  <div class="col-sm-2 col-lg-2  p-3">
-                    <img src="./image/night/cosmetics3-home-icon3.svg"
-                      class="img-fluid" alt>
-                  </div>
-                  <div class="col-sm-2 col-lg-2 p-3 ">
-                    <img src="./image/night/cosmetics3-home-icon4.svg"
-                      class="img-fluid" alt>
-                  </div>
-                  <div class="col-sm-3 col-lg-3 ">
-                    <img src="./image/night/cosmetics3-home-icon5.svg"
-                      class="img-fluid" alt>
-                  </div>
-                </div>
-                <div class="row text-center">
-                  <div class="col p-3">
-                    <button>SEE MORE</button>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="col-sm-2"><img src="./image/night/cosmetics3-home-icon2.svg" alt="">
+            <p>Wrincles</p>
           </div>
-        </section>
-        <div class="marq mt-3">
-          <marquee class="w-100 bg-light p-5" behavior direction="right">My name
-            is Marzieh Gooderzi, my specialty is front end</marquee>
+          <div class="col-sm-2"><img src="./image/night/cosmetics3-home-icon3.svg" alt="">
+            <p>Day care</p>
+          </div>
+          <div class="col-sm-2"><img src="./image/night/cosmetics3-home-icon4.svg" alt="moon">
+            <p>Night care</p>
+          </div>
+          <div class="col-sm-2"><img src="./image/night/cosmetics3-home-icon5.svg" alt="">
+            <p>Moisture</p>
+          </div>
+          <div class="col-sm-2"><img src="./image/night/cosmetics3-home-icon6.svg" alt="">
+            <p>Protect</p>
+          </div>
         </div>
-      </main>
+      </div>
+      <div class="butt text-center">
+        <button type="button" class="btn btn-outline-secondary">see more</button>
+      </div>
+    </div>
+    <div class="marquee row mt-3">
+      <marquee class="p-5" behavior direction="right">My name
+        is Marzieh Gooderzi/ my specialty is front end</marquee>
+    </div>
+  </main>
+  <!-- <==============//content==============> -->
 
-      <!-- <==============//content==============> -->
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./bootstrap/js/popper.min.js"></script>
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
+  <script src="./javascript/javascript.js"></script>
 
-      <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
-      <script src="./bootstrap/js/popper.min.js"></script>
-      <script src="./bootstrap/js/bootstrap.min.js"></script>
-      <script src="./javascript/javascript.js"></script>
+</body>
 
-    </body>
-
-  </html>
+</html>
