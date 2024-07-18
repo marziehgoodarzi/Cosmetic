@@ -52,15 +52,9 @@
 
 /* <==============content==============> */
 .carousel {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  margin-top: 100px;
 }
 
-.main {
-  /* max-height: 900px; */
-}
 .rutin-caption {
 }
 .box-wrapper {
@@ -72,15 +66,52 @@
   height: 600px;
   margin-top: 40px;
   background-image: url(../image/background/jaidad.jpg);
-}
-.routin > div {
-  height: 200px;
-  padding: 80px;
-}
-
-.routin- p {
-  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .rutin-caption p {
-  font-size: 3rem;
+  font-size: 2rem;
+  padding: 20px;
+}
+.routin-Daily {
+  padding: 20px;
+}
+.routin-Daily p {
+  margin: 20px;
+}
+.butt {
+  justify-content: center;
+}
+
+.ruot-pm {
+  /* padding: 20px; */
+}
+/* .marquee{
+  border: 2px solid red;
+} */
+
+@media (max-width: 768px) and (min-width: 375px) {
+  .routin {
+    max-height: 650px;
+  }
+
+  .rutin-caption p {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  .butt {
+    margin: 0;
+  }
+}
+
+.shop-caption {
+}
+.part-shop {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
 }
