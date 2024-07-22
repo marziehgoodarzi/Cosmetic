@@ -96,6 +96,7 @@
   }
 }
 
+
 .form-control {
   background-color: rgb(241, 218, 222);
 }
@@ -115,7 +116,7 @@
 
 /* <==============content==============> */
 .carousel {
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 .box-wrapper {
